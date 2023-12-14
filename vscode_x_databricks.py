@@ -17,3 +17,17 @@ df = spark.createDataFrame(data)
 
 df.display()
 
+
+
+
+
+
+
+dem_task=[]
+for i in range(1,111):
+    dem_task.append(i)
+d2=1
+for i in dem_task:
+    d2*=i
+print(d2)
+    

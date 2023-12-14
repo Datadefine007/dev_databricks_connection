@@ -1,5 +1,6 @@
 -- Databricks notebook source
-select " hello"
+select "sql notebook"
+
+-- COMMAND ----------
 
 
-select "hi"

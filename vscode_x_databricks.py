@@ -1,5 +1,4 @@
 # Databricks notebook source
-
 from pyspark.sql import Row
 import random
 
@@ -32,6 +31,7 @@ for i in dem_task:
 print(d2)
     
 
+<<<<<<< Updated upstream
 
 
 
@@ -58,3 +58,19 @@ for _ in range(num_records):
 df = spark.createDataFrame(data)
 
 df.display()
+=======
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC create table deo(
+# MAGIC   name1 string,
+# MAGIC   salary int,
+# MAGIC   age int,
+# MAGIC   role_d varchar(225)
+# MAGIC )
+# MAGIC >>>>>>> Stashed changes
+
+# COMMAND ----------
+
+

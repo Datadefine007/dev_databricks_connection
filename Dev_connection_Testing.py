@@ -32,3 +32,4 @@ df = spark.createDataFrame(data, schema=schema)
  
 # Show the DataFrame
 df.display()
+print('test')
